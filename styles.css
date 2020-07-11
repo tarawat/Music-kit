@@ -1,0 +1,154 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+}
+
+.wg {
+  background-image: url("images/Amajor.png");
+}
+
+.ag {
+  background-image: url("images/Aminor.png");
+}
+
+.sg {
+  background-image: url("images/Cmajor.png");
+}
+
+.dg {
+  background-image: url("images/Dmajor.png");
+}
+
+.hg {
+  background-image: url("images/Emajor.png");
+}
+
+.jg {
+  background-image: url("images/Eminor.png");
+}
+
+.kg {
+  background-image: url("images/Fmajor.png");
+}
+
+.lg {
+  background-image: url("images/Gmajor.png");
+}
+
+.wd {
+  background-image: url("images/tom1.png");
+}
+
+.ad {
+  background-image: url("images/tom2.png");
+}
+
+.sd {
+  background-image: url("images/tom3.png");
+}
+
+.dd {
+  background-image: url("images/tom4.png");
+}
+
+.jd {
+  background-image: url("images/snare.png");
+}
+
+.kd {
+  background-image: url("images/crash.png");
+}
+
+.ld {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.opt{
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2.4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drum{
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.guitar{
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 30px;
+  background-color: white;
+}
+.guitar-btn{
+  background-image: url(images/guitar.png);
+}
+.drum-btn {
+  background-image: url(images/drum.png);
+}
