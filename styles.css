@@ -8,44 +8,42 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
+
 }
 
 footer {
   color: #DBEDF3;
-  font-family: "Arvo", cursive;
+  font-family: sans-serif;
 }
+
 
 .wg {
   background-image: url("images/Amajor.png");
 }
-
 .ag {
   background-image: url("images/Aminor.png");
 }
-
 .sg {
   background-image: url("images/Cmajor.png");
 }
-
 .dg {
   background-image: url("images/Dmajor.png");
 }
-
-.hg {
+.jg {
   background-image: url("images/Emajor.png");
 }
-
-.jg {
+.kg {
   background-image: url("images/Eminor.png");
 }
-
-.kg {
-  background-image: url("images/Fmajor.png");
-}
-
 .lg {
   background-image: url("images/Gmajor.png");
 }
+.ig {
+  background-image: url("images/Fmajor.png");
+}
+
+
+
 
 .wd {
   background-image: url("images/tom1.png");
@@ -71,6 +69,7 @@ footer {
   background-image: url("images/crash.png");
 }
 
+
 .ld {
   background-image: url("images/kick.png");
 }
@@ -79,39 +78,16 @@ footer {
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
+.chords {
+  margin: 10% auto;
 }
-
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
 
-.opt{
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 2.4rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
-}
-
-.drum{
+.drum {
   outline: none;
   border: 10px solid #404B69;
   font-size: 5rem;
@@ -129,7 +105,8 @@ footer {
   background-color: white;
 }
 
-.guitar{
+
+.guitar {
   outline: none;
   border: 10px solid #404B69;
   font-size: 5rem;
@@ -143,12 +120,67 @@ footer {
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 30px;
+  margin: 10px;
   background-color: white;
 }
-.guitar-btn{
-  background-image: url(images/guitar.png);
+
+
+.guitar-btn {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-image: url("images/guitar.png");
 }
+
 .drum-btn {
-  background-image: url(images/drum.png);
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-image: url("images/drum.png");
+}
+
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
